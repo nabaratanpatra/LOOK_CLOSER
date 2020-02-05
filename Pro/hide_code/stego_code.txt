@@ -1,0 +1,22 @@
+//in this file you will see how to hide the malicious code in other software
+//and make it run when the user runs the software installation
+
+
+//take the script and the setup file or image or mp3 file (anything to hide the code in)
+//you can covert an inage to icon using icoconvert.com
+//keep the malicious code and our carrier(image/mp3/softwaresetup)
+
+//now to the folder that you created just now add to archive
+//selct compression method: best
+//change the name to file_name.sfx.exe
+//you ccan name the file anything but make sure you dont mess up the extentions
+
+//goto advanced 
+//select advanced SFX options 
+//goto setup
+//in the run after extraction block 
+//type in the name aling wth exetntion of the malicious file as well as the carrier
+//in the modes>silentmode select hide all
+
+//goto text and icon and select the icon that we had  created for the file to have
+//in the load sfx icon from the file option select the icon
