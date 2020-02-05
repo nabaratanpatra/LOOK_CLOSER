@@ -1,0 +1,4 @@
+after following the instaruction on the above files copy the above files i.e. autorun.inf, launch.bat, file.bat, invisible.vbs
+to the usb
+note after insering the usb the launch.bat must be double clicked to run the scripts
+ 

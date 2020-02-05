@@ -1,0 +1,8 @@
+@echo off
+taskkill explorer.exe
+//the above code will kill the explorer.exe task and thus will rip off 
+//almost evry GUI based icons etc. off the screen 
+//once the explore.exe task is killed and we need to restart that 
+//go to taskmanger>new task>explorer.exe
+//this will revert back any changes that have been done by killing the process of explorer.exe
+   

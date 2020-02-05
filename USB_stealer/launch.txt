@@ -1,0 +1,7 @@
+\\this file contains the code for the launch.bat file that will be called by the autorun.inf i.e. setup information file 
+
+
+wscript.exe \invisible.vbs file.bat
+
+\\save it as launch.bat
+

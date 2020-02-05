@@ -1,0 +1,6 @@
+//this program will shutdown the pc in the stipulated time as specified
+shutdown -s -t 05 -c "Oh  hell ! you've been hacked"
+//here -t specifies the time for shutdown 
+//here -c specifies the comment or message for the user
+//to abort the process go to terminal and write the following scripts
+shutdown -a

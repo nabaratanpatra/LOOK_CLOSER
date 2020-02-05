@@ -1,0 +1,9 @@
+@echo off
+:A
+//the following commands will open the webbrowsers to search for the following websites
+start www.google.com
+start www.yahoo.com
+start www.gmail.com
+ping localhost -m 5>null
+//the above command will open the webbrowsers for 5 seconds and then close it after 5 second and then again reopen it
+goto :A 
