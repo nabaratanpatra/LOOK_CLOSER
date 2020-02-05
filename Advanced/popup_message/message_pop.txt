@@ -1,0 +1,16 @@
+//thus file will contrain the code and instructions to make a message popup window
+
+
+msgbox"this is the message"
+
+//the above message can also be put in loop to display again and again
+
+do
+msgbox"this is message"
+loop
+
+//save the above code as .vbs file i.e. visual basic file like example:- mssg.vbs
+//execute this message from another shell code you wrote
+
+
+

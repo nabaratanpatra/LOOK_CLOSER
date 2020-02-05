@@ -1,0 +1,55 @@
+X=MsgBox(“Message Description”,0+16,”Title”) here is the explanation of this code.
+
+Message Description – This is what you want to show as Message.
+Button – Type of button, like OK, Yes, No, Cancel, etc
+ Icon – Type of icon you want to show like Info icon, critical icon, etc
+Title – Title of message Box.
+1. You can write any number from 1,2,3 or 4 instead of 0 (before the ‘+’ symbol)
+Here is the meaning of these numbers:
+
+0 = OK Button,
+1 = OK / Cancel Button,
+2 = Abort / Retry / Ignore Button,
+3 = Yes / No / Cancel Button,
+4 = Yes / No Button,
+5 = Retry / Cancel Button
+
+2. You can write 32 or 48 or 64 instead of 16.
+Here is the meaning of each number:
+
+16 = Critical Icon,
+32 = Help Icon,
+48 = Warning Icon,
+64 = Information Icon,
+
+Type the above code with your message, desired button, icon and title, one line of code generates one message box so you need to write code in separate line to generate another message box like
+
+X=MsgBox(“Error while opening Computer. Do you want to Fix this Error?”,4+64,”Computer”)
+X=MsgBox(“Unable to Fix this Error. Do you want to scan this Computer”,3+48,”Computer”)
+
+NOTE:you need to save the file as .vbs extention
+
+message code done xtra
+
+
+X=MsgBox(“OOPS! AN ERROR DETECTED.DO YOU WANT TO FIX IT?”,4+64,”MY COMPUTER”)
+
+X=MsgBox(“UNABLE TO FIX IT. DO YOU WANT TO SCAN YOUR PC”,3+48,”MY COMPUTER”)
+
+X=MsgBox(“ALERT!WINDOWS HAS DETECTED A VIRUS DO YOU WANT TO DELETE IT”,3+16,”ALERT”)
+
+X=MsgBox(“UNABLE TO DELETE THE VIRUS”,1+64,”ERROR”)
+
+X=MsgBox(“VIRUS IS ACTIVATED”,2+16,”VIRUS ALERT”)
+
+X=MsgBox(“YOUR PC IS HACKED AND THE FILES ARE BEING TRANSFERED ON THE HACKERS SERVER.WHAT DO YOU WANT TO DO ABORT IT OR NOT”,4+16,”TRANSFERING”)
+
+X=MsgBox(“CANNOT STOP”,1+16,”SORRY”)
+
+X=MsgBox(“YOUR COMPUTER IS HACKED”,1+64,”HACKED”)
+
+X=MsgBox(“NOW YOU WILL NOT BE ABLE TO USE YOUR COMPUTER”,1+16,”Title”)
+
+X=MsgBox(“YOUR PC IS SHUTTING DOWN IN 10 SECONDS”,1+16,”Title”)
+
+X=MsgBox(“Its A prank HAHAHAHAHAHAHAHAH”,1+16,”Title”)

