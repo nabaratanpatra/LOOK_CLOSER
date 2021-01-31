@@ -1,7 +1,7 @@
 # CREATE YOUR OWN WALWARE   
 # HACK FOR FUN  
 
-This foder consists of the set of simple viruses which was built on 1st of february 2020
+This folder consists of the set of simple viruses which was built on 1st of february 2020
 The following folders contain codes written in notepad (for security reasons they 
 have not been activated as any person not knowing the true potential of the scripts 
 can run the programs out of curiocity and wolud lead to havoc).
